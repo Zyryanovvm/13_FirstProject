@@ -13,7 +13,6 @@ public class AutorisationForm {
     public AutorisationForm openStartPage() {
         step("Open Start page", () -> {
             Selenide.open("https://yandex.ru/");
-            DriverSettings.configure();
         });
         return this;
     }

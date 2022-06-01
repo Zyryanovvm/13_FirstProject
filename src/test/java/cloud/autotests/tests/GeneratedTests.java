@@ -42,6 +42,7 @@ public class GeneratedTests extends TestBase {
 
     String loginYandex = System.getProperty("login", "test");
     // ./gradlew clean test -Dlogin=Zyryanov
+
     @CsvSource(value = {
             " | Пароль не указан",
             "123 | Неверный пароль",
