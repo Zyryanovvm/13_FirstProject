@@ -1,4 +1,4 @@
-package cloud.autotests.helpers;
+package cloud.autotests.pages;
 
 import com.codeborne.selenide.Selenide;
 

@@ -14,9 +14,8 @@ public class DriverSettings {
         Configuration.browser = Project.config.browser();
         Configuration.browserVersion = Project.config.browserVersion();
         Configuration.browserSize = Project.config.browserSize();
-//        if (System.getProperty("remote") == "true") {
-            Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-//        }
+        Configuration.remote = Project.config.remoteDriverUrl();
+
 //        Configuration.baseUrl = App.config.webUrl();
 
 
