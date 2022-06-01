@@ -12,16 +12,16 @@
 
 ## :computer: Технологии и инструменты
 <p align="left"> 
-<img width="6%" title="Java" src="images/Java.svg">
-<img width="6%" title="Selenide" src="images/logo/Selenide.svg">
-<img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
-<img width="6%" title="Gradle" src="images/logo/Gradle.svg">
-<img width="6%" title="JUnit5" src="images/logo/JUnit5.svg">
-<img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
-<img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
-<img width="6%" title="GitHub" src="images/logo/GitHub.svg">
-<img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
-<img width="6%" title="Telegram" src="images/logo/Telegram.svg">
+<img width="6%" title="Java" src="src/images/logo/Java.svg">
+<img width="6%" title="Selenide" src="src/images/logo/Selenide.svg">
+<img width="6%" title="Allure Report" src="src/images/logo/Allure_Report.svg">
+<img width="6%" title="Gradle" src="src/images/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="src/images/logo/JUnit5.svg">
+<img width="6%" title="IntelliJ IDEA" src="src/images/logo/Intelij_IDEA.svg">
+<img width="6%" title="Selenoid" src="src/images/logo/Selenoid.svg">
+<img width="6%" title="GitHub" src="src/images/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="src/images/logo/Jenkins.svg">
+<img width="6%" title="Telegram" src="src/images/logo/Telegram.svg">
 </p>
 
 ## :clipboard: Реализованные проверки
@@ -34,7 +34,7 @@
 ## :robot: Сборки в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_13-FullProject/">Параметризированная сборка в Jenkins со всеми тестами</a>
 <p align="center">
-<img title="Jenkins Job Run with parameters" src="images/Jenkins/Jenkins0.png">
+<img title="Jenkins Job Run with parameters" src="src/images/Jenkins/Jenkins0.png">
 </p>
 
 
@@ -62,23 +62,23 @@ test
 ## :bar_chart: Allure отчет
 - ### Общий отчет
 <p align="center">
-<img title="Отчеты из Allure 1" src="images/Jenkins/Jenkins1.png">
+<img title="Отчеты из Allure 1" src="src/images/Jenkins/Jenkins1.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Отчеты из Allure 2" src="images/Jenkins/Jenkins3.png">
+<img title="Отчеты из Allure 2" src="src/images/Jenkins/Jenkins3.png">
 </p>
 
 - ### Пример запущенного теста с параметрами (Логин - 1а. Уведомление  - "Такой логин не подойдёт")
 <p align="center">
-<img title="Отчеты из Allure 3" src="images/Jenkins/Jenkins3.png">
+<img title="Отчеты из Allure 3" src="src/images/Jenkins/Jenkins2.png">
 </p>
 
 ## :robot: Отчет в Telegram
 - ### Telegram notification message (all results)
 <p align="center">
-<img title="Telegram notification message (all results)" src="images/screenshots/telegram-bot.png">
+<img title="Telegram notification message (all results)" src="src/images/Jenkins/Telegram.png">
 </p>
 
 
@@ -86,5 +86,5 @@ test
 ## :film_projector: Видео пример прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.gif">
+  <img title="Selenoid Video" src="src/images/video/video.gif">
 </p>
